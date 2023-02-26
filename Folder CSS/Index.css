@@ -1,0 +1,30 @@
+header {
+    color:rgb(246, 214, 3);
+    text-align: center;
+    font-size:36px; 
+    font-style:inherit;
+}
+body {
+    background-color: black;
+    color:aliceblue
+}
+#MainListPage a {
+    color:crimson;
+    margin: 0px 50px 0px 50px;
+    font-size:20px; 
+}
+.SubList li, #MainList li{
+    color:aquamarine;
+    font-style: italic;
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    color:gold;
+}
+footer {
+    text-align: center;
+}
+p {
+    text-align:justify;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CONTACT ME
+    </title>
+    <link href="../Folder CSS/ContactMe.css" rel="stylesheet">
+</head>
+
+<body>
+    <hr>
+    <div id="MainListPage">
+        <a href="/Folder HTML/AboutMe.html" target="_blank">Page AboutMe.</a></li>
+        <a href="../Index.html" target="_blank">Page Index.</a></li>
+        <a href="/Folder HTML/ContentAdd.html" target="_blank">Page ContendAdd.</a></li>
+    </div>
+    <hr>
+    <h1>
+        REGISTRATION FORM
+    </h1>
+    <form action="/Folder HTML/AboutMe.html" methods="post">
+        <div>
+            <label for="OlderThan18YearsOld">Older than 18 years old</label><br>Yes
+            <input type="radio" name="OlderThan18YearsOld" id="OlderThan18YearsOld" value="OlderThan18YearsOld"
+                required>
+        </div>
+        <br><br>
+        <div>
+            <label for="username">User Name</label><br>
+            <input type="text" name="username" id="username" placeholder="example.321" required>
+        </div>
+        <br><br>
+        <div>
+            <label for="Name">Name</label><br>
+            <input type="text" name="Name" id="Name" required>
+        </div>
+        <br><br>
+        <div>
+            <label for="LastName">Last Name</label><br>
+            <input type="text" name="LastName" id="LastName" required>
+        </div>
+        <br><br>
+        <div>
+            <label for="Email">Email</label><br>
+            <input type="text" name="Email" id="Email" placeholder="example@gmail.com" required>
+        </div>
+        <br><br>
+        <div>
+            <label for="NumberPhone">Number Phone</label><br>
+            <input type="text" name="NumberPhone" id="NumberPhone" placeholder="+57">
+        </div>
+        <br><br>
+        <div>
+            <label for="Country">Country of Origin</label><br>
+            <select name="Country" id="Country">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Peru">Peru</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            <label for="City"> City </label><br>
+            <input type="text" list="CityMain" id="City" name="City">
+            <datalist id="CityMain">
+                <option value="Armenia"></option>
+                <option value="Cali"></option>
+                <option value="Bogota"></option>
+                <option value="Medellin"></option>
+            </datalist>
+        </div>
+        <br><br>
+        <div>
+            <label for="Questions"> Frequent Questions </label><br>
+            <input type="text" list="MainQuestions" id="Questions" name="Questions">
+            <datalist id="MainQuestions">
+                <option value="RECOMMENDATIONS FOR USE"></option>
+                <option value="WHY CHOOSE YOUR OPTION?"></option>
+                <option value="WHERE CAN I CONTACT YOU?"></option>
+                <option value="I NEED MORE INFORMATION?"></option>
+                <option value="NOTHING, THANKS"></option>
+            </datalist>
+        </div>
+        <br><br>
+        <div>
+            <label for="recommendations">Your Recommendations:</label><br>
+            <textarea id="recommendations" name="recommendations" rows="10" cols="50"
+                placeholder="Write your recommendations"></textarea>
+            </textarea>
+        </div>
+        <br><br>
+        <hr>
+        <div id="BottomSend">
+            <input type="submit" value="SEND FORM">
+        </div>
+        <hr>
+    </form>
+</body>
+
+</html>
