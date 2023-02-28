@@ -16,44 +16,47 @@
         <a href="/Folder HTML/ContentAdd.html" target="_blank">Page ContendAdd.</a></li>
     </div>
     <hr>
-    <h1>
-        REGISTRATION FORM
-    </h1>
-    <form action="/Folder HTML/AboutMe.html" methods="post">
+    <form class="FormRegister" action="/Folder HTML/AboutMe.html" methods="post">
         <div>
+            <h1>
+                REGISTRATION FORM
+            </h1>
+            <br>
             <label for="OlderThan18YearsOld">Older than 18 years old</label><br>Yes
+            <input type="radio" name="OlderThan18YearsOld" id="OlderThan18YearsOld" value="OlderThan18YearsOld"
+                required> No
             <input type="radio" name="OlderThan18YearsOld" id="OlderThan18YearsOld" value="OlderThan18YearsOld"
                 required>
         </div>
         <br><br>
         <div>
             <label for="username">User Name</label><br>
-            <input type="text" name="username" id="username" placeholder="example.321" required>
+            <input class="controls" type="text" name="username" id="username" placeholder="example.321" required>
         </div>
         <br><br>
         <div>
             <label for="Name">Name</label><br>
-            <input type="text" name="Name" id="Name" required>
+            <input class="controls" type="text" name="Name" id="Name" required>
         </div>
         <br><br>
         <div>
             <label for="LastName">Last Name</label><br>
-            <input type="text" name="LastName" id="LastName" required>
+            <input class="controls" type="text" name="LastName" id="LastName" required>
         </div>
         <br><br>
         <div>
             <label for="Email">Email</label><br>
-            <input type="text" name="Email" id="Email" placeholder="example@gmail.com" required>
+            <input class="controls" type="text" name="Email" id="Email" placeholder="example@gmail.com" required>
         </div>
         <br><br>
         <div>
             <label for="NumberPhone">Number Phone</label><br>
-            <input type="text" name="NumberPhone" id="NumberPhone" placeholder="+57">
+            <input class="controls" type="text" name="NumberPhone" id="NumberPhone" placeholder="+57">
         </div>
         <br><br>
         <div>
             <label for="Country">Country of Origin</label><br>
-            <select name="Country" id="Country">
+            <select class="controls" name="Country" id="Country">
                 <option value="Argentina">Argentina</option>
                 <option value="Bolivia">Bolivia</option>
                 <option value="Colombia">Colombia</option>
@@ -67,7 +70,7 @@
         <br><br>
         <div>
             <label for="City"> City </label><br>
-            <input type="text" list="CityMain" id="City" name="City">
+            <input class="controls" type="text" list="CityMain" id="City" name="City">
             <datalist id="CityMain">
                 <option value="Armenia"></option>
                 <option value="Cali"></option>
@@ -78,7 +81,7 @@
         <br><br>
         <div>
             <label for="Questions"> Frequent Questions </label><br>
-            <input type="text" list="MainQuestions" id="Questions" name="Questions">
+            <input class="controls" type="text" list="MainQuestions" id="Questions" name="Questions">
             <datalist id="MainQuestions">
                 <option value="RECOMMENDATIONS FOR USE"></option>
                 <option value="WHY CHOOSE YOUR OPTION?"></option>
@@ -90,16 +93,21 @@
         <br><br>
         <div>
             <label for="recommendations">Your Recommendations:</label><br>
-            <textarea id="recommendations" name="recommendations" rows="10" cols="50"
+            <textarea class="controls" id="recommendations" name="recommendations" rows="10" cols="40"
                 placeholder="Write your recommendations"></textarea>
             </textarea>
         </div>
-        <br><br>
-        <hr>
-        <div id="BottomSend">
-            <input type="submit" value="SEND FORM">
+        <p>
+            I agree with <a href="#">Terms and Conditions</a>
+        </p>
+        <br>
+        <div>
+            <input id="Bottom" type="submit" value="REGISTER">
         </div>
-        <hr>
+        <br>
+        <p>
+            <a href="#">¿Do you already have an account?</a>
+        </p>
     </form>
 </body>
 

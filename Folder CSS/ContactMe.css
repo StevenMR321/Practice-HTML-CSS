@@ -1,17 +1,79 @@
-#MainListPage a {
-    color:crimson;
-    margin: 0px 50px 0px 50px;
-    font-size:20px; 
-}body {
-    color:aliceblue;
-    background-color: black;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-label {
+.FormRegister {
+    width: 400px;
+    background-color: black;
+    padding: 30px;
+    margin:auto;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
     color:gold;
 }
-h1 {
+label {
+    font-size: 20px;
+    color:white;
+}
+.FormRegister .controls {
+    color:black;
+    font-family:fantasy;
+
+}
+.FormRegister h1 {
+    font-size: 30px;
+    margin-bottom: 20;
     text-align: center;
-    -webkit-text-stroke: 1px red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+}
+.controls {
+    width:100%;
+    background:bisque;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+} 
+.FormRegister p{
+    height: 30px;
+    line-height:30px ;
+    text-align: center;
+    font-size: 16px;
+}
+.FormRegister a{
+    color:white;
+    text-decoration: none;
+}
+.FormRegister a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.FormRegister #Bottom {
+    width: 100%;
+    background-color: darkblue;
+    border:none;
+    padding:12px;
+    color:white;
+    margin-left: 16px 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#MainListPage {
+    height:80px ;
+    text-align: center;
+    background-color: black;
+    padding:20px;
+    font-size:28px; 
+    text-align: center;
+}
+#MainListPage a:hover {
+    color:aqua;
+}
+#MainListPage a {
+    color: gold;
+    margin: 0px 50px 0px 50px;
+     
 }
