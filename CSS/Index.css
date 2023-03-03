@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    margin: 1%;
+    text-align: center;
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: #068D9D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: gold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #AEECEF;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-right: 10px;
+
+}
+
+#MainListPage {
+    display: flex;
+    align-items: center;
+}
+
+#MainListPage img {
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+a:hover  {
+    color: #470024;
+}
+
+.SubContainer {
+    font-size:1em;
+}
+.Container ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 5%; 
+    background-color: #E71D36;
+    height: 100%;
+    font-size: 28px;
+}
+
+.Container ul li{
+    display: -webkit-inline-flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.Container ul li a {
+    text-decoration: none;
+    color: gold;
+    padding: 20px;
+    padding-right: 10px;
+}
+
+.Container ul li a:hover{
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    -webkit-text-stroke: 0.1px white;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: gold;
+    -webkit-text-stroke: 1px white;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+   
+}
+
+p {
+    text-align: justify;
+}
+
+span {
+    color: white;
+}
+
+span1 {
+    color: blue;
+}
+
+span2 {
+    color: red;
+}
+li {
+    list-style-type:none;
+    color:#E71D36;
+    font-family:"Georgia", "Times New Roman";
+    font-size:1.6em;
+    font-style: italic;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.2px white;
+}  

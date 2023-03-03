@@ -4,9 +4,47 @@ body{
     margin:5%;
     text-align: center;
     border: 2px solid white;
-    padding: 0 20px 20px 20px;
+    padding: 1%;
 }
+
 header {
+    display: flex;
+    height: 70px;
+    background-color: #E71D36;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: gold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #AEECEF;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+#MainListPage {
+    display: flex;
+    align-items: center;
+}
+
+#MainListPage img {
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+a:hover  {
+    color: #19180A;
+}
+
+p {
+    font-size: 24px;
+}
+h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large; 
     font-style: italic;
@@ -14,18 +52,7 @@ header {
     text-align: center;
     -webkit-text-stroke: 1px white;
 }
-#MainListPage a:hover {
-    color:aqua;
-}
-#MainListPage {
-    text-align: center;
-}
-#MainListPage a {
-    color:crimson;
-    margin: 0px 50px 0px 50px;
-    font-size:20px; 
-}
-h1 {
+h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 26;
     text-align: center;
@@ -46,7 +73,7 @@ ul li {
 li {
     text-align:center;
 }
-h2, h3 {
+h3 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     font-style: italic;
@@ -55,3 +82,13 @@ h2, h3 {
 li {
     display:block;
 }
+.container {
+    display:flex;
+    justify-content:space-between;
+    text-align: left;
+}
+
+.container ul li {
+    text-align:left;
+}
+
